@@ -1,4 +1,4 @@
-// ******************Primitive dattypes************************
+// ******************Primitive datatypes************************
 
 let score = 100;
 let anotherScore = 100.9;
@@ -19,7 +19,7 @@ const anotherId = Symbol('123');
 const bigNumber = 20359323355n;
 console.log(typeof bigNumber);
 
-// ******************non-primitive**********************8
+// ******************non-primitive**********************
 
 // array  , function , object
 
