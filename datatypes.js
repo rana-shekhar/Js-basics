@@ -1,4 +1,4 @@
-// ******************Primitive dattypes************************
+// ******************Primitive datatypes************************
 
 let score = 100;
 let anotherScore = 100.9;
