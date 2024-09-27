@@ -38,3 +38,4 @@ const palindrom = "The quick brown fox jumps over the lazy dog";
 
 console.log(palindrom.replace(/\s+/g,'').split(''));
 
+
