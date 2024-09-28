@@ -36,6 +36,6 @@ const palindrom = "The quick brown fox jumps over the lazy dog";
 // console.log(palindrom.split('')); // Splits into individual characters including spaces
 // console.log(palindrom.trim().split('')); // Trims whitespace first, then splits into individual characters
 
-console.log(palindrom.replace(/\s+/g,'').split(''));
+console.log(palindrom.replace(/\s+/g,'').split('').join());
 
 
