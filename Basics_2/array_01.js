@@ -47,8 +47,9 @@ const myN1 = myArr.slice(1,3);
     console.log("B", myArr);
 
     const myN2 = myArr.splice(1,3)
-    console.log("C", myArr);
     console.log(myN2);
+    console.log("C", myArr);
+    
     
     
     
