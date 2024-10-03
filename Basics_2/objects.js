@@ -83,7 +83,8 @@ const obj2 = {...target , ...source}
 
 // console.log(Object.assign(target ,source));
 
-
+// console.log(Object.keys(target));
+// console.log(Object.values(source));
 
 let arr1 = [
     {
@@ -93,7 +94,41 @@ let arr1 = [
 ]
 
 
+// console.log(arr1[0].email);
+// console.log(arr1[0]["email"]);
 
-console.log(Object.keys(target));
-console.log(Object.values(source));
+
+
+
+
+const course = {
+    coursename: "JS course",
+    courseprice: "999",
+
+}
+
+// console.log(course.coursename);
+
+// const {coursename} = course
+
+
+//rename
+const {coursename: name} = course
+
+console.log(name);
+
+
+// console.log(coursename);
+
+
+
+//******************JSON format*************************
+
+{
+    "coursename": "JS in hindi",
+    "courseduration": "12hrs",
+    "courseprice": "free",
+
+}
+
 
