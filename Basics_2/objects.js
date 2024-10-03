@@ -1,3 +1,6 @@
+//******************literals******************* */
+
+
 const mySym = Symbol("key1")
 
 const objUser = {
@@ -31,11 +34,66 @@ objUser.greeting = function () {
     
 }
 
-console.log(objUser.greeting());
+// console.log(objUser.greeting());
 
 objUser.greetingTwo = function () {
     return `Hello! JS user ${this.name}`
     
 }
 
-console.log(objUser.greetingTwo());
+// console.log(objUser.greetingTwo());
+
+// *******************singleton*****************
+
+const tinderUser = {}
+
+tinderUser.name = "Shekhar"
+tinderUser.email = "shekhar@gmail.com"
+tinderUser.age = "23"
+
+
+// console.log(tinderUser.name);
+
+
+
+const dailyUser = {
+    name: "Shekhar Rajput",
+    fullName: {
+userFullName: {
+    firstName:"Shekhar",
+    lastName:"Rana",
+},
+    }
+}
+
+
+// console.log(dailyUser.fullName.userFullName.lastName);
+
+
+
+
+
+const target = {1:"a", 2:"b"}
+const source = {3:"c", 4:"d"}
+
+// const obj3 = {target,source}
+const obj2 = {...target , ...source}
+
+// console.log(obj2);
+
+// console.log(Object.assign(target ,source));
+
+
+
+let arr1 = [
+    {
+        id: "1",
+        email:"S@gmail.com",
+    }
+]
+
+
+
+console.log(Object.keys(target));
+console.log(Object.values(source));
+
