@@ -68,3 +68,10 @@ return getArray[1]
 
 console.log(anything([200,400,300]));
 
+//conclude: Functions allow you to write code once and reuse it multiple times throughout your program.
+function greet(name) {
+    console.log("Hello, " + name);
+  }
+  
+  greet("Shekhar"); // Output: Hello, Shekhar
+  greet("Narender"); // Output: Hello, Narender
