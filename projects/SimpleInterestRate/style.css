@@ -1,0 +1,101 @@
+/* Center the form and give it a modern look */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5d9bfb;
+    box-shadow: 0 0 8px rgba(93, 155, 251, 0.5);
+  }
+  
+  button {
+    width: 100%;
+    height: 45px;
+    background-color: #5d9bfb;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4b89d8;
+  }
+  
+  #results {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    input,
+    button {
+      font-size: 14px;
+      height: 35px;
+    }
+  }
+  nav{
+    position: absolute; /* Element ko absolute position dena */
+  top: 5px; /* Top par align karna */
+  left: 50%; /* Horizontal center */
+  transform: translateX(-50%); /* Text ko exactly center karne ke liye */
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  }
